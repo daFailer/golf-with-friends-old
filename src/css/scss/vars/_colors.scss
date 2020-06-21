@@ -1,5 +1,14 @@
-$colorTurquoise: #b5fbff;
+$colorTurquoise: #0EDFDF;
 $colorGray: #575757;
+
+// $colorBackground: green;
+// $colorSurface: green;
+// $colorPrimary
+// $colorSecondary
+// On background
+// On Surface
+// On Primary
+// On Secondary
 
 :root {
     --colorTurquise: #b5fbff;
@@ -28,6 +37,7 @@ $colorGray: #575757;
         // background colors
         // --bgColor[element]
         --bgBody: #{$colorTurquoise};
+        // --bgSurface: 
         
         // font colors
         // --fontColor[element]
