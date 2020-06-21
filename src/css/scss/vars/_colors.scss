@@ -1,0 +1,39 @@
+$colorTurquoise: #b5fbff;
+$colorGray: #575757;
+
+:root {
+    --colorTurquise: #b5fbff;
+    --colorGray: #575757;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    :root {
+        // background colors
+        // --bgColor[element]
+        --bgBody: #{$colorGray};
+
+        // font colors
+        // --fontColor[element]
+        --fontColorBody: #{$colorTurquoise};
+
+        // border colors
+        // --borderColor[element]
+    }
+}
+
+/* Light mode */
+@media (prefers-color-scheme: light) {
+    :root {
+        // background colors
+        // --bgColor[element]
+        --bgBody: #{$colorTurquoise};
+        
+        // font colors
+        // --fontColor[element]
+        --fontColorBody: #{$colorGray};
+
+        // border colors
+        // --borderColor[element]
+    }
+}
