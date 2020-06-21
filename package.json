@@ -1,6 +1,6 @@
 {
-  "name": "golf-with-your-friends",
-  "productName": "golf-with-your-friends",
+  "name": "golf-with-friends",
+  "productName": "golf-with-friends",
   "version": "1.0.0",
   "description": "My Electron application description",
   "main": "src/index.js",
@@ -24,7 +24,7 @@
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "name": "golf_with_your_friends"
+            "name": "golf_with_friends"
           }
         },
         {
