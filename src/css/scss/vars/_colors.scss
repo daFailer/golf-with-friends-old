@@ -20,14 +20,26 @@ $colorGray: #575757;
     :root {
         // background colors
         // --bgColor[element]
-        --bgBody: #{$colorGray};
+        --bgBody: rgb(32,33,36);
+        --bgHeader: rgba(102, 255, 255, 0.7);
+        --bgSurfaceBox: rgb(40,41,44);
+        --bgIcon: #0EDFDF;
 
         // font colors
         // --fontColor[element]
         --fontColorBody: #{$colorTurquoise};
+        --fontColorHeader: #fff;
+        --fontColorH1: rgb(254, 254, 254);
+        --fontColorFooter: #fff;
+        --fontColorSurfaceBox: rgb(245,246,247);
+        --fontColorIcon: #fff;
 
         // border colors
         // --borderColor[element]
+        --borderFooter: rgb(150,154,159);
+
+
+        --boxShadowSurfaceBox: none;
     }
 }
 
@@ -36,14 +48,26 @@ $colorGray: #575757;
     :root {
         // background colors
         // --bgColor[element]
-        --bgBody: #{$colorTurquoise};
+        --bgBody: rgb(255,255,255);
+        --bgHeader: rgba(102, 255, 255, 0.7);
+        --bgSurfaceBox: #fff;
+        --bgIcon: #66ffff;
         // --bgSurface: 
         
         // font colors
         // --fontColor[element]
         --fontColorBody: #{$colorGray};
+        --fontColorHeader: #000;
+        --fontColorH1: rgb(0,0,0);
+        --fontColorFooter: #000;
+        --fontColorSurfaceBox: #000;
+        --fontColorIcon: #000;
 
         // border colors
         // --borderColor[element]
+        --borderFooter: rgb(89,93,97);
+
+
+        --boxShadowSurfaceBox: 0 2px 8px 0 rgba(0,0,0,.15);
     }
 }
