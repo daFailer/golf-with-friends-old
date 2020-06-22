@@ -11,8 +11,8 @@ const createWindow = () => {
   const mainWindow = new BrowserWindow({
     title: 'Golf with Friends',
     show: false,
-    width: 800,
-    height: 600,
+    width: 1400,
+    height: 800,
   });
 
   // and load the index.html of the app.
