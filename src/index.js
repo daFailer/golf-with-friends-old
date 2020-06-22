@@ -9,15 +9,22 @@ if (require('electron-squirrel-startup')) { // eslint-disable-line global-requir
 const createWindow = () => {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
+    title: 'Golf with Friends',
+    show: false,
     width: 800,
     height: 600,
   });
 
   // and load the index.html of the app.
-  mainWindow.loadFile(path.join(__dirname, 'index.html'));
+  mainWindow.loadFile(path.join(__dirname, 'content/index.html'));
 
   // Open the DevTools.
   mainWindow.webContents.openDevTools();
+  
+  mainWindow.on('ready-to-show', function(){
+    mainWindow.show();
+    mainWindow.focus();
+  })
 };
 
 // This method will be called when Electron has finished
