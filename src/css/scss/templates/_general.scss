@@ -1,9 +1,12 @@
 body {
     font-family: verdana, geneva, tahoma, arial, sans-serif;
-    background-color: var(--bgBody);
-    color: var(--fontColorBody);
 }
 
 h1 {
     font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: var(--fontColorSurfaceBox);
 }

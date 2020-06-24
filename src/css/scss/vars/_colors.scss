@@ -25,6 +25,8 @@ $colorGray: #575757;
         --bgSurfaceBox: rgb(40,41,44);
         --bgIcon: #0EDFDF;
 
+        --bgNaviContainer: rgb(48, 49, 52);
+
         // font colors
         // --fontColor[element]
         --fontColorBody: #{$colorTurquoise};
@@ -33,6 +35,8 @@ $colorGray: #575757;
         --fontColorFooter: #fff;
         --fontColorSurfaceBox: rgb(245,246,247);
         --fontColorIcon: #fff;
+
+        --fontColorNaviContainer: rgb(151, 155, 150);
 
         // border colors
         // --borderColor[element]
@@ -52,7 +56,8 @@ $colorGray: #575757;
         --bgHeader: rgba(102, 255, 255, 0.7);
         --bgSurfaceBox: #fff;
         --bgIcon: #66ffff;
-        // --bgSurface: 
+        
+        --bgNaviContainer: rgb(255, 255, 255);
         
         // font colors
         // --fontColor[element]
@@ -62,6 +67,8 @@ $colorGray: #575757;
         --fontColorFooter: #000;
         --fontColorSurfaceBox: #000;
         --fontColorIcon: #000;
+
+        --fontColorNaviContainer: rgb(96, 99, 104);
 
         // border colors
         // --borderColor[element]

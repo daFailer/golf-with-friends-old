@@ -1,19 +1,33 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <base href="">
         <meta charset="UTF-8">
         <title>Hello World!</title>
-        <link rel="stylesheet" href="../css/screen.min.css">
+        <link rel="stylesheet" href="./../../src/css/screen.min.css">
     </head>
-    <body class="dark-theme">
+    <body>
         <div id="wrapper">
-            <header>
-                Header
-            </header>
+            <div class="naviContainer">
+                <nav v-if="naviItems.length">
+                    <ul>
+                        <navi-item
+                            v-for="naviItem in naviItems"
+                            v-bind:calc-width="naviItems.length"
+                            v-bind:label="naviItem.label"
+                            v-bind:url="naviItem.url"
+                        >
+                            <template v-slot:svg-container>
+                                <div class="svgContainer" v-html="naviItem.svg"></div>
+                            </template>
+                        </navi-item>
+                    </ul>
+                </nav>
+            </div>
     
             <section>
                 <div class="onBackgroundBox">
-                    <h1>Fancy Pancy</h1>
+                    <h1>Headline Start</h1>
                 </div>
                 <div class="surfaceBox">
                     article 1
@@ -32,5 +46,8 @@
         <footer>
             footer
         </footer>
+        <script src="./../../src/js/vue.js"></script>
+        <script src="./../../src/js/modules/naviContainer.js"></script>
+        <script src="./../../src/js/custom.js"></script>
     </body>
 </html>
