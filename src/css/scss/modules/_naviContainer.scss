@@ -5,6 +5,10 @@
     right: 0;
     background-color: var(--bgNaviContainer);
     box-shadow: 0 -2px 8px 0 rgba(0,0,0,.15);
+    height: var(--heightNaviContainer);
+    backdrop-filter: blur(4px);
+    // background-color: var(--bgHeader);
+    color: var(--fontColorHeader);
     
     li {
         display: inline-block;
@@ -12,6 +16,12 @@
         
         &:last-child {
             border: none;
+        }
+
+        &.current {
+            svg {
+                fill: var(--bgIconActive);
+            }
         }
     }
 
@@ -26,11 +36,12 @@
         display: inline-block;
         width: 50px;
         height: 50px;
+    }
 
-        svg {
-            width: 100%;
-            height: 100%;
-        }
+    svg {
+        width: 100%;
+        height: 100%;
+        fill: var(--bgIcon);
     }
 
     .label {
