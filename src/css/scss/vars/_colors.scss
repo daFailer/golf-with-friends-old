@@ -21,9 +21,10 @@ $colorGray: #575757;
         // background colors
         // --bgColor[element]
         --bgBody: rgb(32,33,36);
-        --bgHeader: rgba(102, 255, 255, 0.7);
+        // --bgHeader: rgba(102, 255, 255, 0.7);
         --bgSurfaceBox: rgb(40,41,44);
-        --bgIcon: #0EDFDF;
+        --bgIcon: rgb(151, 155, 150);
+        --bgIconActive: #0EDFDF;
 
         --bgNaviContainer: rgb(48, 49, 52);
 
@@ -53,9 +54,10 @@ $colorGray: #575757;
         // background colors
         // --bgColor[element]
         --bgBody: rgb(255,255,255);
-        --bgHeader: rgba(102, 255, 255, 0.7);
+        // --bgHeader: rgba(102, 255, 255, 0.7);
         --bgSurfaceBox: #fff;
-        --bgIcon: #66ffff;
+        --bgIcon: rgb(96, 99, 104);
+        --bgIconActive: #66ffff;
         
         --bgNaviContainer: rgb(255, 255, 255);
         
